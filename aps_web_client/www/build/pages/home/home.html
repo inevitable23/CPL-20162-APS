@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar danger>
+    <ion-title>
+      <h3>환자 위치 정보 서비스</h3>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card class = "map_class">
+    <div #map id="map"></div>
+<!--
+    <button fab fab-right fab-top class="fab-map">
+      <ion-icon name='pin'></ion-icon>
+    </button> -->
+  </ion-card>
+  <ion-card>
+    <div class="map_text">
+        <ion-card-content>
+          <ion-card-title>
+            <h2 style="font-weight: bold;">환자 위치</h2>
+          </ion-card-title>
+          <p>
+            {{address}}
+          </p>
+        </ion-card-content>
+
+        <div class ="bottom_text">
+          <ion-icon name="walk"></ion-icon>
+          <span item-left secondary>240M</span>
+          <span item-left subtle>도보로 2분 소요</span>
+        </div>
+
+    </div>
+  </ion-card>
+
+</ion-content>

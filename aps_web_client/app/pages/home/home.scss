@@ -1,0 +1,31 @@
+.home-page {
+
+}
+.map_class{
+  height : 80%;
+}
+.title_img{
+  position: inherit;
+  height: 100%;
+}
+ion-title{
+  text-align: center;
+}
+#map{
+  position: relative;
+  //height : 50%;
+}
+button[fab].fab-map {
+  top: 45%;
+  right: 10%;
+  z-index: 50;
+}
+.bottom_text{
+  position: relative;
+  text-align: right;
+}
+.map_text{
+
+  position: relative;
+  height:50%;
+}
